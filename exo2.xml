@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="exo2.xsl" type="text/xsl"  ?> 
+<!DOCTYPE ListeHotes SYSTEM "exo2.dtd">
+
+<ListeHotes>
+	
+	<Hote>
+		<IP>178.124.12.2</IP>
+		<ListePorts>
+			<Port PortNum="80" State="ouvert" /> 
+			<Port PortNum="3129" State="ferme" />
+			<Port PortNum="22" State="ferme" />
+		</ListePorts>
+	</Hote>
+	
+	<Hote>
+		<IP>124.35.11.1</IP>
+		<ListePorts>	
+			<Port PortNum="22" State="filtre" />
+			<Port PortNum="80" State="ouvert" />
+		</ListePorts>
+	</Hote>
+
+	<Hote>
+		<IP>163.100.110.61</IP>
+		<ListePorts>
+			<Port PortNum="22" State="filtre" />
+		</ListePorts>
+	</Hote>
+	<Hote>
+		<IP>10.10.10.10</IP>
+		<ListePorts>
+		
+		</ListePorts>
+	</Hote>
+
+</ListeHotes>

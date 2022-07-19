@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT ListeHotes (Hote+)>
+<!ELEMENT Hote (IP,ListePorts)>
+<!ELEMENT IP (#PCDATA)>
+<!ELEMENT ListePorts (Port*)>
+<!ELEMENT Port EMPTY>
+<!ATTLIST Port
+	PortNum CDATA #REQUIRED
+	State (ouvert | ferme | filtre) #REQUIRED 
+>
